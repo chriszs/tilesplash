@@ -27,7 +27,7 @@
   "dependencies": {
     "mapnik": "^3.4.16",
     "async": "~0.9.0",
-    "caching": "git://github.com/faradayio/node-caching.git",
+    "caching": "git+https://github.com/faradayio/node-caching.git",
     "clone": "^1.0.2",
     "connect-timeout": "^1.6.2",
     "express": "~4.4.1",
