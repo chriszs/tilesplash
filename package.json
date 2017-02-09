@@ -25,7 +25,6 @@
     "mocha": "~1.20.0"
   },
   "dependencies": {
-    "mapnik": "^3.4.16",
     "async": "~0.9.0",
     "caching": "git+https://github.com/faradayio/node-caching.git",
     "clone": "^1.0.2",
