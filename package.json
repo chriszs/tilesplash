@@ -1,16 +1,22 @@
 {
   "name": "tilesplash",
-  "description": "a light and quick nodejs webserver for serving topojson vector tiles from a postgis backend",
-  "version": "2.0.1",
+  "description": "A light and quick nodejs webserver for serving mapbox vector tiles (and topojson) from a postgis backend",
+  "version": "2.1.2",
   "maintainers": [
     {
       "name": "Tristan Davies",
       "email": "npm@tristan.io"
-    }, {
+    },
+    {
       "name": "Nick Husher",
       "email": "nhusher@gmail.com"
+    },
+    {
+      "name": "Bill Morris",
+      "email": "bill@faraday.io"
     }
   ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/faradayio/tilesplash.git"
@@ -25,13 +31,14 @@
     "mocha": "~1.20.0"
   },
   "dependencies": {
-    "async": "~0.9.0",
-    "caching": "git+https://github.com/faradayio/node-caching.git",
+    "async": "^2.1.1",
+    "caching": "git://github.com/faradayio/node-caching.git",
     "clone": "^1.0.2",
     "connect-timeout": "^1.6.2",
-    "express": "~4.4.1",
-    "pg": "^4.3.0",
-    "sphericalmercator": "~1.0.2",
-    "topojson": "1.6.9"
+    "express": "^4.14.0",
+    "mapnik": "~3.5.14",
+    "pg": "^6.1.0",
+    "sphericalmercator": "^1.0.5",
+    "topojson": "^1.6.27"
   }
 }
